@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-1 {
+    background-color: rgb(122, 113, 113);
+    width: 300px;
+    padding: 32px;
+    margin: 30px;
+    border-radius: 12px;
+    gap: 12px;
+}
+
+.card-profile {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.profile-top {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.profile-photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 74px;
+    font-weight: bold;
+    background-color: rgb(72, 72, 190);
+    color: white;
+    font-size: 16px;
+    align-self: flex-start;
+    border-radius: 50%;
+    padding: 25px;
+}
+
+.name-username {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#name {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#username {
+    font-size: 12px;
+    color: #ccc;
+}
+
+.description {
+    font-size: 14px;
+    margin-top: 7px;
+}
+
+.follow {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#btn-follow {
+    padding: 6px 12px;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    color: aliceblue;
+    background-color: #ccc;
+    opacity: 0.8;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#btn-follow:hover {
+    background-color: rgb(195, 195, 221);
+}
+
+.infos {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.n1, .n2, .n3 {
+    background-color: rgb(71, 66, 66);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 6px;
+    align-items: center;
+}
+
+
+.n1r {
+    font-size: 18px;
+    color: white;
+}
+
+.n2f {
+    font-size: 18px;
+    color: white;
+}
+
+.n3f {
+    font-size: 18px;
+    color: white;
+}
+
+.repos, .followers, .following {
+    font-size: 14px;
+    color: #a3a0a0;
+}
